@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
        <article className='write' style={edit ? {'background-color':'black'}:{}}>
-            <input type="file" accept="image/*;capture=camera">
+            <input type="file" accept="image/*;capture=camera" />
             <input 
             type="text" 
             value={elInput} 
